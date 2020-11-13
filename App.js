@@ -31,6 +31,7 @@ const App: () => React$Node = () => {
               <Text style={styles.sectionTitle}>填写订单</Text>
               <Text style={styles.sectionDescription}>添加就诊人</Text>
             </View>
+            <View></View>
             <View>
               <Button
                 title="Press me"
