@@ -216,9 +216,7 @@ import {
                                     <Text style={styles.noDataTxt}>暂无搜索历史</Text>
                                 </View>
                         }
-                        <View style={styles.head}>
-                            <Text style={{fontSize: scale(14), color: "#333"}}>{"热门搜索"}</Text>
-                        </View>
+                        
                         {
                             this.state.hotTagsArr.length > 0 ?
                                 <View style={styles.queryList}>
