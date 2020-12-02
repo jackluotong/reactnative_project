@@ -151,9 +151,7 @@ import {
                     show_close_img={true}
             />
             <View style={styles.inputBox}>
-                <View style={styles.inputIcon}>
-                    <Image source={require('../../imgs/public_icon_search.png')}/>
-                </View>
+                
                 <TextInput style={styles.inputText}
                            autoCapitalize="none"
                            value={this.state.value}
